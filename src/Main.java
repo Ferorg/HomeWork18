@@ -15,9 +15,6 @@ public class Main {
         Car car8 = new Car( "Автобус 8",semaphore);
         goCar(car1,car2,car3,car4,car5,car6,car7,car8);
     }
-
-
-
     public static void goCar(Car car1, Car car2,Car car3,Car car4,Car car5,Car car6,Car car7,Car car8) {
         car1.start();
         car2.start();

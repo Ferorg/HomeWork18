@@ -8,8 +8,6 @@ public class Car extends Thread {
         super(name);
         this.semaphore=semaphore;
     }
-
-
     public void run() {
         for (int i = 1; i <= 5; i++) {
             checkEmptySlot(i);
